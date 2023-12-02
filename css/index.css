@@ -19,6 +19,24 @@ body{
     line-height: normal;
 }
 
+section {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+section:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+#intro {
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Adapte as cores conforme necessário */
+  text-align: center;
+}
+
+
 a {
     text-decoration: none;
 }
